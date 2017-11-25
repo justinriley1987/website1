@@ -11,7 +11,9 @@ class Counter extends Component {
     return (
       <div>
         <span>{value}</span>
-        <button onClick={onIncreaseClick}>Increase</button>
+        <button onClick={onIncreaseClick}>Increase Counter />
+
+        <h1> This is a test</h1>
       </div>
     )
   }
@@ -26,7 +28,7 @@ Counter.propTypes = {
 const increaseAction = { type: 'increase' }
 
 // Reducer
-function counter(state = { count: 0 }, action) {
+function counter(state = { count: 1 }, action) {
   const count = state.count
   switch (action.type) {
     case 'increase':
