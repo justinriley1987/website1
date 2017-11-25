@@ -11,8 +11,7 @@ class Counter extends Component {
     return (
       <div>
         <span>{value}</span>
-        <button onClick={onIncreaseClick}>Increase Counter />
-
+        <button onClick={onIncreaseClick}>Increase Counter /button>
         <h1> This is a test</h1>
       </div>
     )
