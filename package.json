@@ -8,23 +8,31 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jackielii/simplest-redux-example.git"
+    "url": "git+https://github.com/justinriley1987/website1.git"
   },
   "keywords": [
     "redux",
     "react"
   ],
-  "author": "Jackie Li",
+  "author": "Justin Riley",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jackielii/simplest-redux-example/issues"
+    "url": "https://github.com/justinriley1987/website1/issues"
   },
   "browserify": {
     "transform": [
-      [ "babelify", { "presets": ["es2015", "react"] } ]
+      [
+        "babelify",
+        {
+          "presets": [
+            "es2015",
+            "react"
+          ]
+        }
+      ]
     ]
   },
-  "homepage": "https://github.com/jackielii/simplest-redux-example#readme",
+  "homepage": "https://github.com/justinriley1987/website1#README",
   "dependencies": {
     "prop-types": "^15.5.10",
     "react": "^15.0.2",
