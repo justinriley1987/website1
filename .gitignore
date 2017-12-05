@@ -4,3 +4,7 @@ coverage*
 .tern-port
 v8.log
 .idea/workspace.xml
+website1.iml
+.idea/vcs.xml
+.idea/modules.xml
+.idea/misc.xml
